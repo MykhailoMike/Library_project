@@ -6,7 +6,11 @@
 
     <groupId>com.mainacad</groupId>
     <artifactId>Library_project</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../libraryProjectFX</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
